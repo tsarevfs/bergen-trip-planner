@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fdfbf7;
+    color: #2d3436;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    max-height: 400px;
+}
+
+.timeline-item.active {
+    border-left: 4px solid #556b2f;
+    background-color: #f0f4e8;
+}
+@media (max-width: 1023px) {
+    .timeline-item.active {
+        border-left-color: transparent !important;
+        border-bottom: 4px solid #556b2f;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.map-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    background: #f1f5f9;
+}
+
+.map-wrapper iframe {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    border: 0;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+.step-connector {
+    position: absolute;
+    left: 44px; /* Center of w-12 icon with p-5 padding on mobile */
+    top: 60px;
+    bottom: -40px;
+    width: 2px;
+    background: #e5e7eb;
+    z-index: 0;
+}
+@media (min-width: 640px) {
+    .step-connector {
+        left: 60px; /* Center of w-14 icon with p-8 padding on tablet/desktop */
+    }
+}
+.step-container:last-child .step-connector {
+    display: none;
+}
+
+.hike-tile {
+    min-width: 280px;
+    width: 280px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+@media (min-width: 640px) {
+    .hike-tile {
+        min-width: 320px;
+        width: 320px;
+    }
+}
+.hike-tile:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.hike-hero {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
