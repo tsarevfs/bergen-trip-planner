@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Caesar+Dressing&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
@@ -7,7 +7,8 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+h1, .brand-font { font-family: 'Caesar Dressing', sans-serif; }
+h2, h3 { font-family: 'Inter', sans-serif; font-weight: 700; }
 
 .chart-container {
     position: relative;
