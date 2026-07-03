@@ -46,7 +46,69 @@ export const tripData = [
         title: { en: 'Olden Exploration' },
         summary: { en: 'A flexible day to relax, enjoy the panoramic views from your cabin, and explore the beautiful Nordfjord and Olden valley surroundings.' },
         sequence: [
-            { type: 'activity', label: { en: 'Sightseeing in Olden Valley' }, detail: { en: 'Spend the day exploring the dramatic valley, glacial lakes, or relaxing by the fjord. Hikes can be added here once data is available.' }, icon: '🏔️' },
+            { type: 'activity', label: { en: 'Sightseeing in Olden Valley' }, detail: { en: 'Spend the day exploring the dramatic valley, glacial lakes, or relaxing by the fjord.' }, icon: '🏔️' },
+            {
+                type: 'options',
+                label: { en: 'Olden Valley Hikes' },
+                detail: { en: 'Choose from a variety of hikes starting near Oldevatnet lake, ranging from scenic waterfall walks to challenging mountain ridge climbs.' },
+                hikes: [
+                    {
+                        name: { en: 'Briksdalsbreen Glacier' },
+                        dist: { en: '6.05 km' },
+                        time: { en: '1h 52m' },
+                        diff: 'Easy',
+                        color: 'bg-teal-500',
+                        link: 'https://www.komoot.com/smarttour/e2097777749/up-to-briksdalsbreen-glacier',
+                        alltrails: 'TBD',
+                        image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=400&h=250&q=80',
+                        summary: { en: 'An accessible, highly popular trail following a valley river to a scenic glacial lake and retreating ice face. Starts approx. 5 km south.' }
+                    },
+                    {
+                        name: { en: 'Gytrifossen Waterfall' },
+                        dist: { en: '4.53 km' },
+                        time: { en: '1h 13m' },
+                        diff: 'Easy',
+                        color: 'bg-emerald-600',
+                        link: 'https://www.komoot.com/tour/2427034140',
+                        alltrails: 'TBD',
+                        image: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=400&h=250&q=80',
+                        summary: { en: 'A moderate, family-friendly walk through a lush, secluded valley leading directly to a powerful waterfall. Starts directly at the lake.' }
+                    },
+                    {
+                        name: { en: 'Klovane Peak' },
+                        dist: { en: '6.20 km' },
+                        time: { en: '3h 44m' },
+                        diff: 'Moderate',
+                        color: 'bg-amber-600',
+                        link: 'https://www.komoot.com/smarttour/34233388',
+                        alltrails: 'TBD',
+                        image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&h=250&q=80',
+                        summary: { en: 'A steep, challenging ascent (960 m gain) rewarding hikers with 360-degree views of the Oldedalen valley and surrounding glaciers. Starts directly at the lake.' }
+                    },
+                    {
+                        name: { en: 'Oldeskaret Pass' },
+                        dist: { en: '9.70 km' },
+                        time: { en: '4h (One-way)' },
+                        diff: 'Difficult',
+                        color: 'bg-indigo-600',
+                        link: 'https://www.komoot.com/highlight/898512',
+                        alltrails: 'TBD',
+                        image: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=400&h=250&q=80',
+                        summary: { en: 'A historic and demanding mountain pass traverse featuring stone stairs built by Sherpas and high-altitude glacial lakes. Starts approx. 5 km south.' }
+                    },
+                    {
+                        name: { en: 'Kattanakken Ridge' },
+                        dist: { en: '11.00 km' },
+                        time: { en: '6-8h' },
+                        diff: 'Difficult',
+                        color: 'bg-red-600',
+                        link: 'https://www.komoot.com/highlight/891371',
+                        alltrails: 'TBD',
+                        image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&h=250&q=80',
+                        summary: { en: 'A demanding alpine ridge hike meant for experienced mountaineers, featuring dramatic views of the Jostedalsbreen ice plateau (1,300 m gain). Starts approx. 5 km south.' }
+                    }
+                ]
+            },
             { type: 'stay', label: { en: 'Flåten Cabin' }, detail: { en: 'Enjoy a peaceful evening and a second night at your cabin in Flåten, Olden.' }, image: 'cabin.avif', icon: '🏨' }
         ]
     },
