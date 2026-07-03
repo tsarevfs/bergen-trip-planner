@@ -60,7 +60,7 @@ export const tripData = [
                         color: 'bg-teal-500',
                         link: 'https://www.komoot.com/smarttour/e2097777749/up-to-briksdalsbreen-glacier',
                         alltrails: 'TBD',
-                        image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=400&h=250&q=80',
+                        image: 'https://d2exd72xrrp1s7.cloudfront.net/www/wm/wmmn9lkug3nidl6ckakka9bo520n1w7f-p484237168-full/190d6b50153?width=3840&crop=false&q=80',
                         summary: { en: 'An accessible, highly popular trail following a valley river to a scenic glacial lake and retreating ice face. Starts approx. 5 km south.' }
                     },
                     {
@@ -71,7 +71,7 @@ export const tripData = [
                         color: 'bg-emerald-600',
                         link: 'https://www.komoot.com/tour/2427034140',
                         alltrails: 'TBD',
-                        image: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=400&h=250&q=80',
+                        image: 'https://d2exd72xrrp1s7.cloudfront.net/www/000/1k8/1h/1hgen8zk7123nn13ktnioo0ew4zy4jskw-uhi73127235/0?width=3840&crop=false&q=80',
                         summary: { en: 'A moderate, family-friendly walk through a lush, secluded valley leading directly to a powerful waterfall. Starts directly at the lake.' }
                     },
                     {
@@ -82,7 +82,7 @@ export const tripData = [
                         color: 'bg-amber-600',
                         link: 'https://www.komoot.com/smarttour/34233388',
                         alltrails: 'TBD',
-                        image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&h=250&q=80',
+                        image: 'https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/9m/9mu89j1z9s11vpiug43ft2vz4p1a5qiv-uhi64426185/0?width=3840&crop=false&q=80',
                         summary: { en: 'A steep, challenging ascent (960 m gain) rewarding hikers with 360-degree views of the Oldedalen valley and surrounding glaciers. Starts directly at the lake.' }
                     },
                     {
@@ -93,7 +93,7 @@ export const tripData = [
                         color: 'bg-indigo-600',
                         link: 'https://www.komoot.com/highlight/898512',
                         alltrails: 'TBD',
-                        image: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=400&h=250&q=80',
+                        image: 'https://d2exd72xrrp1s7.cloudfront.net/www/000/1k3/15/15cwm9a7jplmrvo9um88m2la324o02a8-uhi7044887/0?width=3840&crop=false&q=80',
                         summary: { en: 'A historic and demanding mountain pass traverse featuring stone stairs built by Sherpas and high-altitude glacial lakes. Starts approx. 5 km south.' }
                     },
                     {
@@ -104,7 +104,7 @@ export const tripData = [
                         color: 'bg-red-600',
                         link: 'https://www.komoot.com/highlight/891371',
                         alltrails: 'TBD',
-                        image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&h=250&q=80',
+                        image: 'https://d2exd72xrrp1s7.cloudfront.net/www/000/1k9/1m/1mcvpoaluthbnfg545kpcwqy5ilm9o28-uhi93873703/0?width=3840&crop=false&q=80',
                         summary: { en: 'A demanding alpine ridge hike meant for experienced mountaineers, featuring dramatic views of the Jostedalsbreen ice plateau (1,300 m gain). Starts approx. 5 km south.' }
                     }
                 ]
